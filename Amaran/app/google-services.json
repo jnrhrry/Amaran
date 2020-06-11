@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "933952501947",
+    "firebase_url": "https://amaran1801.firebaseio.com",
+    "project_id": "amaran1801",
+    "storage_bucket": "amaran1801.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:933952501947:android:f08d603d4da8c22fd7519e",
+        "android_client_info": {
+          "package_name": "com.januar.amaran"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "933952501947-gohq4mnbf6f1apoqklpnefmt90h3a710.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfb_xUf30Mii_XLBQcfroB740ECDZLQJ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "933952501947-gohq4mnbf6f1apoqklpnefmt90h3a710.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

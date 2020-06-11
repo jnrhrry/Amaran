@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark3"
+    tools:context=".registerlogin.RegisterActivity">
+
+    <EditText
+        android:id="@+id/etEmail_login"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="241dp"
+        android:background="@drawable/rounded_column"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/etPassword_login"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="308dp"
+        android:background="@drawable/rounded_column"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/etEmail_login"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/etEmail_login"
+        app:layout_constraintTop_toBottomOf="@+id/etEmail_login"
+        app:layout_constraintVertical_bias="0.113" />
+
+    <Button
+        android:id="@+id/buLogin"
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="48dp"
+        android:background="@drawable/rounded_column_darker"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/etPassword_login"
+        app:layout_constraintStart_toStartOf="@+id/etPassword_login" />
+
+    <TextView
+        android:id="@+id/tvToRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Click here to create an account."
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/etPassword_login"
+        app:layout_constraintStart_toStartOf="@+id/etPassword_login"
+        app:layout_constraintTop_toBottomOf="@+id/etPassword_login" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
